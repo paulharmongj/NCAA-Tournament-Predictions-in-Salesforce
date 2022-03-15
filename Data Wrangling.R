@@ -12,7 +12,10 @@ library(readr)
 library(ggplot2)
 library(dplyr)
 
-#### Read in data 
+#### Read in data (Note that these files are not included at repository. They can be downloaded from Kaggle at: https://www.kaggle.com/c/mens-march-mania-2022)
+#### The output dataset IS available in the repository as NCAABasketballresults.csv
+
+
 
 mteams <- read_csv("Data/MTeams.csv")
 mres <- read_csv("Data/MRegularSeasonCompactResults.csv")
